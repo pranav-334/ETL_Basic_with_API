@@ -10,7 +10,7 @@
 import pyspark
 '''
 Creating a Spark session for any Spark application is mandatory and it only runs if the internet connectivity is there, else it will fail with:
-    00:46:47 WARN Utils: Your hostname, DESKTOP-38Q35QF resolves to a loopback address: 127.0.0.1; using 2406:7400:63:72e6:80a2:6e23:8a72:3882 instead (on interface wlan2)
+    00:46:47 WARN Utils: Your hostname, DESKTOP-CH17CE176 resolves to a loopback address: 127.0.0.1; using <IPV6 address> instead (on interface wlan2)
 
 '''
 sparkSession = pyspark.sql.SparkSession \
